@@ -11,7 +11,7 @@ import socket
 
 def filtra_csv():
     province=["PALERMO","ROMA","NAPOLI","MILANO","TORINO"]  #Elenco delle province delle quali vogliamo estrarre i dati
-    with open("D:/Benny/università/Open data/Progetto/Dataset/Finali/scuole.csv","w",newline="") as f: #Creazione file output
+    with open("Open data/Progetto/Dataset/Finali/scuole.csv","w",newline="") as f: #Creazione file output
     
         file_output=csv.writer(f)
         #-------Scrittura della riga d'intestazione
