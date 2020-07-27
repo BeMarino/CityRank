@@ -1,7 +1,7 @@
 import csv
 
-reader=csv.reader(open("D:/Benny/università/Open data/Progetto/Dataset/scuole.csv"))
-writer=csv.writer(open("D:/Benny/università/Open data/Progetto/Dataset/scuoleToUmap.csv","wt",newline=""))
+reader=csv.reader(open("Open data/Progetto/Dataset/scuole.csv"))
+writer=csv.writer(open("Open data/Progetto/Dataset/scuoleToUmap.csv","wt",newline=""))
 writer.writerow(["DENOMINAZIONESCUOLA","DESCRIZIONEGRADOSCUOLA","PROVINCIA","DESCRIZIONECOMUNE","INDIRIZZOSCUOLA","CAPSCUOLA","CODICECOMUNESCUOLA","INDIRIZZOEMAILSCUOLA","SITOWEBSCUOLA","CODICESCUOLA","LATITUDINE","LONGITUDINE","COR_COMUNE"])
 
 
