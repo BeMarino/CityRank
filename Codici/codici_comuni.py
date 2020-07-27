@@ -1,8 +1,8 @@
 import csv 
 
-reader=csv.reader(open("C:/Users/Benny/Desktop/Elenco-codici-statistici-e-denominazioni-al-01_01_2020.csv"))
+reader=csv.reader(open("Elenco-codici-statistici-e-denominazioni-al-01_01_2020.csv"))
 province=["TO","MI","PA","RM","NA"]
-writer=csv.writer(open("C:/Users/Benny/Desktop/Elenco_codici_comuni.csv","wt",newline=""))
+writer=csv.writer(open("Elenco_codici_comuni.csv","wt",newline=""))
 writer.writerow(["PROVINCIA","DENOMINAZIONE_COMUNE","CODICE_COMUNE"])
 next(reader)
 for row in reader:
