@@ -130,7 +130,7 @@ def clean_comune(comune):
 
 # Province
 
-with open("D:/Benny/Università/Open data/Progetto/dataset/Output_finale.csv") as prov:
+with open("Open data/Progetto/dataset/Output_finale.csv") as prov:
     print("Adding properties for province")
     reader = csv.reader(prov)
     next(reader)
@@ -183,7 +183,7 @@ with open("D:/Benny/Università/Open data/Progetto/dataset/Output_finale.csv") a
 
         
 # Comuni e Scuole
-with open("D:/Benny/Università/Open data/Progetto/dataset/scuole.csv") as prov:
+with open("Open data/Progetto/dataset/scuole.csv") as prov:
     reader = csv.reader(prov)
     next(reader) 
     print("Adding properties for Scuole")
@@ -282,7 +282,7 @@ with open("D:/Benny/Università/Open data/Progetto/dataset/scuole.csv") as prov:
         container_en.stop()
             
 # Ospedali     
-with open("D:/Benny/Università/Open data/Progetto/dataset/Ospedali e case di cura.csv") as osp:
+with open("Open data/Progetto/dataset/Ospedali e case di cura.csv") as osp:
     print("Adding properties for Ospedali")
     reader = csv.reader(osp)
     next(reader) 
@@ -355,7 +355,7 @@ with open("D:/Benny/Università/Open data/Progetto/dataset/Ospedali e case di cu
 
 
 # Biblioteche
-with open("D:/Benny/Università/Open data/Progetto/dataset/Biblioteche.csv")as bib:        
+with open("Open data/Progetto/dataset/Biblioteche.csv")as bib:        
     reader = csv.reader(bib)
     print("Adding properties for Biblioteche")
     next(reader)  
