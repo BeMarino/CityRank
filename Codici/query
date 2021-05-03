@@ -14,10 +14,10 @@ WHERE {
       ?site clvapit:hasGeometry ?geo.
       ?geo clvapit:lat ?Latitudine;
       clvapit:long ?Longitudine.
-      ?site cis:siteAddress ?adress.
-      ?adress clvapit:hasProvince ?provincia.
+      ?site cis:siteAddress ?address.
+     
       
-      FILTER(?provincia IN( <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/201>, <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/215>, 
+      FILTER(?p IN( <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/201>, <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/215>, 
              <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/258>, <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/263>, 
              <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/282>))
 }
